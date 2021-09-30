@@ -1,13 +1,13 @@
 <template>
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand justify-content-left" href="#"><b>Hamza's Website</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <!-- Navbar Contents -->
-      <div class="collapse navbar-collapse show" id="navbarTogglerDemo01">
-        <a class="navbar-brand justify-content-left" href="#"><b>Hamza's Website</b></a>
+      <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="active nav-item"><router-link to="/"><button class="btn btn-danger">All Items</button></router-link></li>
           <li class="nav-item"><router-link to="/about"><button class="btn btn-danger">Add Items</button></router-link></li>
@@ -44,5 +44,7 @@
   padding-right: 20px;
 }
 
-
+.btn{
+  width: 150px;
+}
 </style>
