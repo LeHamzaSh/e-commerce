@@ -6,7 +6,7 @@
       </button>
 
       <!-- Navbar Contents -->
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <div class="collapse navbar-collapse show" id="navbarTogglerDemo01">
         <a class="navbar-brand justify-content-left" href="#">Hamza's Website</a>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="active nav-item"><router-link to="/"><button class="btn btn-danger">All Items</button></router-link></li>
@@ -27,7 +27,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-image: url("./assets/bg.jpg");
+  /*background-image: url("./assets/bg.jpg");*/
 }
 
 .navbar-collapse{

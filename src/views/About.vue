@@ -1,6 +1,21 @@
 <template>
   <div class="about">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <h1>This is an about page</h1>
+    <Form/>
   </div>
 </template>
+
+<script>
+import Form from '../components/Form.vue'
+
+export default{
+  name: 'about',
+  components: {
+    Form
+  }
+}
+
+</script>
+
+<style scoped>
+
+</style>
